@@ -1,0 +1,35 @@
+@media (max-width: 1140px) {
+    .nav {
+        justify-content: space-around;
+    }
+    .nav-element-text {
+        font-size: 15px;
+    }
+    .serv-cardpanel {
+        flex-direction: column;
+    }
+    .card {
+        margin-bottom: 50px;
+    }
+    .wel-image {
+        display: none;
+    }
+}
+@media (max-width: 900px) {
+    .nav {
+        width: 100%;
+        justify-content: space-around;
+    }
+    .nav-bar {
+        display: none;
+    }
+    .burger-bar {
+        display: block;
+    }
+    .left-frame {
+        display: none;
+    }
+    .about-right {
+        width: 100%;
+    }
+}

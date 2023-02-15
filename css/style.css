@@ -1,0 +1,355 @@
+body {
+    background-color: #010718;
+}
+.container {
+    max-width: 1650px;
+    width: 100%;
+    margin: 0 auto;
+}
+/* Header */
+.nav {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
+}
+.logo {
+    width: 40%;
+}
+.logo > a {
+    font-size: 20px;
+    color: white;
+}
+.logo-text{
+    color: #03befc;
+}
+.nav-bar {
+    width: 40%;
+}
+.nav-bar ul {
+    display: flex;
+    justify-content: space-around;
+}
+.nav-element-text {
+    color: white;
+    font-size: 20px;
+    transition: all 0.3s;
+}
+.nav-element-text:hover {
+    color: #03befc;
+}
+/* Welcome */
+.wel-main {
+    display: flex;
+    justify-content: space-around;
+}
+.welcome {
+    width: 50%;
+    font-size: 30px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding-top: 230px;
+}
+.wel-props {
+    display: flex;
+    align-items: center; 
+    color: white;
+}
+.wel-text {
+    font-size: 20px;
+}
+.wel-name {
+    font-size: 60px;
+}
+.wel-prog {
+   color: #03befc; 
+}
+.wel-desc {
+    margin-top: 30px;
+    font-size: 20px;
+    color: gray;
+}
+.hire-me {
+    margin-top: 30px;
+}
+.hire-me a {
+    font-size: 20px;
+    color: #03befc;
+    border: 0.5px solid;
+    border-radius: 50px;
+    padding: 10px;
+    border-color: white;
+    transition: all 0.3s;
+}
+.hire-me a:hover {
+    background-color: #03befc;
+    border-color: #03befc;
+    color: white;
+}
+.wel-image {
+    position: relative;
+}
+.wel-image img {
+    width: 600px;
+}
+.wel-image::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 150px;
+    background: linear-gradient(to top, #010718, #010718 ,transparent);
+    z-index: 1000;
+}
+/* About Me */
+.about-main {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 120px;
+}
+.about-left {
+    border-radius: 10px;
+    width: 25%;
+    height: 500px;   
+}
+.about-left img {
+    width: 100%;
+    height: 500px;
+}
+.about-right {
+    color: white;
+    width: 70%;
+}
+.about-right h2 {
+    font-size: 50px;
+}
+.about-right p {
+    max-width: 60%;
+}
+/* Services */
+.services {
+    margin-top: 120px;
+}
+.serv-title {
+    color: white;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-size: 50px;
+}
+.serv-cardpanel {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    align-items: center;
+}
+.card {
+    background-color: white;
+    border-radius: 15px;
+    width: 380px;
+    height: 400px;
+    transition: all 0.5s ease;
+}
+.card:hover {
+    transform: translateY(-30px);
+    -webkit-box-shadow: 0px 9px 35px -3px rgba(3,190,252,1);
+    -moz-box-shadow: 0px 9px 35px -3px rgba(3,190,252,1);
+    box-shadow: 0px 9px 35px -3px rgba(3,190,252,1);
+    
+}
+.card-img {
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 150px;
+    height: 150px;
+}
+.img-card1 {
+    width: 150px;
+    display: flex;
+    margin: 0 auto;
+}
+.img-card2 {
+    width: 150px;
+    display: flex;
+    margin: 0 auto;
+}
+.img-card3 {
+    width: 150px;
+    display: flex;
+    margin: 0 auto;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card h2 {
+    font-size: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+.card a {
+    font-size: 17px;
+    width: 30%;
+    text-align: center;
+    margin-top: 5px;
+    color: #03befc;
+    border: 0.5px solid;
+    border-radius: 50px;
+    padding: 10px;
+    border-color: #03befc;
+    transition: all 0.3s;
+}
+.card a:hover {
+    background-color: #03befc;
+    border-color: #03befc;
+    color: white;
+}
+.card-desc {
+    padding: 20px;
+}
+.card-span1 {
+    color: #03befc;
+}
+/* Skills */
+.skills-main {
+    margin-top: 90px;
+}
+.skills-title {
+    color: white;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-size: 50px;
+    margin-bottom: 70px;
+}
+.skills-form {
+    width: 70%;
+    background-color: white;
+    margin: 0 auto;
+    border-radius: 30px;
+    padding: 40px;
+}
+.skills-form h2 {
+    margin-bottom: 30px;
+    font-size: 30px;
+    width: 20%;
+} 
+.skill-class {
+    display: flex;
+}
+/* Contact */
+.contact-main {
+    margin-top: 90px;
+}
+.contact-title {
+    color: white;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-size: 50px;
+    margin-bottom:100px;
+}
+.main-form {
+    background-color: white;
+    width: 860px;
+    padding: 50px;
+    border-radius: 30px;
+}
+.form-align {
+    display: flex;
+    justify-content: space-between;
+}
+.contact-form {
+    display: flex;
+    justify-content: center;
+}
+.contact-names {
+    width: 90%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.contacts {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+}
+.contact-text {
+    height: 219px;
+    align-items: center;
+}
+.contact-text textarea {
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    margin-top: 10px;
+    resize: none;
+    padding: 5px;
+
+}
+input[type=submit] {
+    width: 200px;
+    background-color: #03befc;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+input[type=submit]:hover {
+    background-color: #03698b;
+}
+.contact-last {
+    color: #03befc;
+}
+.footer {
+    width: 100%;
+    margin-top: 50px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgba(41, 41, 41, 0.521) ;
+}
+.footer-soc{
+    display: flex;
+    width: 10%;
+    justify-content: space-around;
+}
+.soc-colors {
+    color: #03befc;
+    transition: all 0.3s;
+}
+.soc-colors:hover {
+    color: #03698b;
+    font-size: 15px;
+}
+.fologo {
+    text-align: center;
+    width: 10%;
+}
+.fologo > a {
+    font-size: 20px;
+    color: white;
+}
+.footer p {
+    color: white;
+}
+/* responsive */
+.burger-bar {
+    display: none;
+    color: white;
+}
+.design-bar {
+    font-size: 20px;
+}
