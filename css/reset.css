@@ -17,6 +17,9 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
+	scroll-behavior: smooth;
+	scrollbar-width: normal;
+	scrollbar-color: #03befc rgba(255, 255, 255, 0);
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 

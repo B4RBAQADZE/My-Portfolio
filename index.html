@@ -16,6 +16,7 @@
 </head>
 <body>
     <!-- Header Section -->
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa-solid fa-chevron-up"></i></button>
     <header>
         <div class="container">
             <div class="nav fonts">
@@ -31,16 +32,16 @@
                             <a class="nav-element-text" href="#">მთავარი</a>
                         </li>
                         <li>
-                            <a class="nav-element-text" href="#">ჩემს შესახებ</a>
+                            <a class="nav-element-text" href="#aboutme">ჩემს შესახებ</a>
                         </li>
                         <li>
-                            <a id="servicesBtn" class="nav-element-text" href="#">სერვისები</a>
+                            <a class="nav-element-text" href="#services">სერვისები</a>
                         </li>
                         <li>
-                            <a class="nav-element-text" href="#">გამოცდილება</a>
+                            <a class="nav-element-text" href="#myskills">გამოცდილება</a>
                         </li>
                         <li>
-                            <a class="nav-element-text" href="#">კონტაქტი</a>
+                            <a class="nav-element-text" href="#contact">კონტაქტი</a>
                         </li>
                     </ul>
                 </div>
@@ -59,7 +60,7 @@
                         <p>ვქმნი ვებსაიტს თავისი დიზაინით, <br> ასევე ვაკეთებ გამართულ რესპონსივს დამიკავშირდი შეკვეთისთვის</p>
                     </div>
                     <div class="hire-me">
-                        <a href="https://vimeo.com/791640383">დამიკავშირდი</a>
+                        <a href="#contact">დამიკავშირდი</a>
                     </div>
                 </div>
                 <div class="wel-image">
@@ -71,7 +72,7 @@
     <!-- about Me section -->
     <section>
         <div class="container">
-            <div class="about-main">
+            <div id="aboutme" class="about-main">
                 <div class="about-left">
                     <div class="left-frame">
                         <img src="gogoni.png" alt="">
@@ -88,7 +89,7 @@
     <!-- Service Section -->
     <section>
         <div class="container">
-            <div class="services">
+            <div id="services" class="services">
                 <div class="serv-title fonts">
                     <h2>სერვისები</h2>
                 </div>
@@ -98,21 +99,21 @@
                             <img class="img-card1" src="Codepng.png" alt="codepng">
                         </div>
                         <h2>FRONT-END Development</h2>
-                        <a href="#">დაკავშირება</a>
+                        <a href="#contact">დაკავშირება</a>
                     </div>
                     <div class="card">
                         <div class="card-img">
                             <img class="img-card2" src="Design.png" alt="design">
                         </div>
                         <h2>UI/UX Design</h2>
-                        <a href="#">დაკავშირება</a>
+                        <a href="#contact">დაკავშირება</a>
                     </div>
                     <div class="card">
                         <div class="card-img">
                             <img class="img-card3" src="Seoserch.png" alt="seosearch">
                         </div>
                         <h2>SEO Optimize</h2>
-                        <a href="#">დაკავშირება</a>
+                        <a href="#contact">დაკავშირება</a>
                     </div>
                 </div>
             </div>
@@ -121,7 +122,7 @@
     <!-- Skills Section -->
     <section>
         <div class="container">
-            <div class="skills-main">
+            <div id="myskills" class="skills-main">
                 <div class="skills-title fonts">
                     <h2>გამოცდილება</h2>
                 </div>
@@ -139,7 +140,7 @@
     </section>
     <!-- Contact Section -->
     <section>
-        <div class="container">
+        <div id="contact" class="container">
             <div class="contact-main">
                 <div class="contact-title fonts">
                     <h2>კონტაქტი</h2>
