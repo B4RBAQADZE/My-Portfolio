@@ -1,4 +1,9 @@
 let mybutton = document.getElementById("myBtn");
+const rules = document.querySelector('.contact-last');
+
+rules.addEventListener('click', () => {
+  
+});
 
 window.onscroll = function() {scrollFunction()};
 

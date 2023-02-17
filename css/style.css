@@ -360,6 +360,12 @@ input[type=submit]:hover {
 .footer p {
     color: white;
 }
+/* Notification */
+.notification {
+    padding-bottom: 15px;
+    color: green;
+    display: none;
+}
 /* responsive */
 .burger-bar {
     display: none;
